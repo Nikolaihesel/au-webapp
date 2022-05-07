@@ -1,0 +1,19 @@
+{
+    "login": [
+
+        {
+            "userId" : "au@mail.com",
+            "password" : "app123"
+            
+        }
+    ], 
+
+    "unitState" : [{
+
+        "isConnected" : "true",
+        "isntConnected" : "false",
+        "liquidState" : 76,
+        "batteredState" : 85
+
+    }]
+}
