@@ -1,5 +1,5 @@
 import "../assets/login.css"
-import Users from '../Json/DB.json'
+import Data from '../Json/DB.json'
 import InputField from  './InputField'
 
 
@@ -8,15 +8,13 @@ import InputField from  './InputField'
 
 export default function Login() {
 
-
+console.log(Data);
 
 
     return(
-        <div className="flex-container-login">
 
-{
-  
-   }
+
+        <div className="flex-container-login">
         
         <div className="infobox-login">
             <h1>DesinficeringsRobot 2000</h1>
