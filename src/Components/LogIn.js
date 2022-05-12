@@ -1,6 +1,8 @@
 import "../assets/login.css"
-import Data from '../Json/DB.json'
 import InputField from  './InputField'
+import { useEffect } from "react"
+
+
 
 
 
@@ -8,7 +10,18 @@ import InputField from  './InputField'
 
 export default function Login() {
 
-console.log(Data);
+
+
+    useEffect(() => {
+        fetch('http://localhost:3001/login')
+          .then(res => {
+            return res.json();
+          })
+          .then(data => {
+            console.log(data);
+          })
+      }, [])
+    
 
 
     return(
@@ -40,7 +53,7 @@ console.log(Data);
 
             </div>
 
-            <a href="#" className="small-text">Glemt login?</a>
+            <a href="" className="small-text">Glemt login?</a>
 
             </div>
 

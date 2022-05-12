@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+.unit-info-container {
+  -webkit-box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
+          box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
+  width: 300px;
+  border-radius: 74px;
+  padding: .5em;
+}
+
+.unit-info-container p {
+  margin: 1.2em;
+  font-family: "lato", sans-serif;
+  color: #215288;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=unitInfo.css.map */

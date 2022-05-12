@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+.find-car {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.find-car .img-container {
+  -webkit-box-shadow: inset 6px 6px 10px #cecfd2, inset -6px -6px 10px #ffffff;
+          box-shadow: inset 6px 6px 10px #cecfd2, inset -6px -6px 10px #ffffff;
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+}
+
+.find-car .search-car {
+  -webkit-box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
+          box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.find-car .search-car input {
+  border-radius: 74px;
+  background: #f2f3f7;
+  -webkit-box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
+          box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
+  font-size: 1.5rem;
+  padding: .8rem;
+  color: #215288;
+  margin: 1em 0;
+}
+
+.find-car .search-car ::-webkit-input-placeholder {
+  color: #215288;
+  opacity: 50%;
+  font-family: "lato", sans-serif;
+}
+
+.find-car .search-car :-ms-input-placeholder {
+  color: #215288;
+  opacity: 50%;
+  font-family: "lato", sans-serif;
+}
+
+.find-car .search-car ::-ms-input-placeholder {
+  color: #215288;
+  opacity: 50%;
+  font-family: "lato", sans-serif;
+}
+
+.find-car .search-car ::placeholder {
+  color: #215288;
+  opacity: 50%;
+  font-family: "lato", sans-serif;
+}
+/*# sourceMappingURL=findCar.css.map */
