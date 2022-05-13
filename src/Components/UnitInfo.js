@@ -17,7 +17,7 @@ export default function UnitInfo(){
 
 
 
-             <ProgressBar unit={"Væskestand"} length={liquidnum} />
+            <ProgressBar unit={"Væskestand"}length={liquidnum} />
             <ProgressBar unit={"Batteri"}  length={batterynum} />
             <ProgressBar unit={"Filter"} length={filternum} />
 
