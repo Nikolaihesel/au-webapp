@@ -5,8 +5,15 @@
 $outwards-shadow:   6px 6px 10px #cecfd2,
 -6px -6px 10px #ffffff;
 
+$outwards-shadow-black:   6px 6px 6px #242424,
+             -6px -6px 6px #383838;;
+
 $inwards-shadow: inset 6px 6px 10px #cecfd2,
 inset -6px -6px 10px #ffffff;
+
+
+$inwards-shadow-black: inset 6px 6px 10px #242424,
+inset -6px -6px 14px #2a2a2a94;
 
 $dark-blue: #215288;
 
@@ -39,15 +46,21 @@ width: 35%;
     margin: 1em;
 
     .kpi {
-        box-shadow: $outwards-shadow;
-        padding: 1em;
+        box-shadow: $outwards-shadow-black;
+        padding: 1.5em;
         margin: 1em 0;
         width: 80%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         font-family: $prim-font;
         color: #f2f3f7;
+        border-radius: 24px;
+        font-size: 1rem;
+
+        p{
+        
+        }
     }
 }
 

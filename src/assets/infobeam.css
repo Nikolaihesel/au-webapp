@@ -36,21 +36,23 @@
 }
 
 .info-beam-container .kpi-beam-container .kpi {
-  -webkit-box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
-          box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
-  padding: 1em;
+  -webkit-box-shadow: 6px 6px 6px #242424, -6px -6px 6px #383838;
+          box-shadow: 6px 6px 6px #242424, -6px -6px 6px #383838;
+  padding: 1.5em;
   margin: 1em 0;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   font-family: "lato", sans-serif;
   color: #f2f3f7;
+  border-radius: 24px;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=infobeam.css.map */
