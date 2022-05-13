@@ -32,8 +32,8 @@
 }
 
 .progress-container .full-bar .used-bar {
-  background: -webkit-gradient(linear, left top, left bottom, from(#53a9d4), to(#4dd797));
-  background: linear-gradient(#53a9d4, #4dd797);
+  background: #2374d2;
+  background: linear-gradient(100deg, #2374d2 0%, #37ff96 100%);
   width: 76%;
   height: 5px;
   border-radius: 4px;

@@ -1,4 +1,4 @@
-import '../assets/findCar.css';
+import '../assets/findCar.scss';
 import InputField from './InputField';
 
 

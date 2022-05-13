@@ -5,7 +5,7 @@ export default function UnitInfo(){
     return (
         <div className="unit-info-container">
 
-            <p>Status på enhed</p>
+            <p className="status">Status på enhed</p>
 
             <ProgressBar unit={"Væskestand"} />
             <ProgressBar unit={"Batteri"} />

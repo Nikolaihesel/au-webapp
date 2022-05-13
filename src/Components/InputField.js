@@ -10,7 +10,7 @@ export default function InputField({type, placeholder}) {
     };
 
     return (
-        <input type={type} placeholder={placeholder}  onChange={getInputValue}/>
+        <input type={type} placeholder={placeholder}  onChange={getInputValue} />
 
     )
 };

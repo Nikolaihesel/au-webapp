@@ -1,69 +1,72 @@
-import "../assets/login.css"
+import Home from './Home'
+import "../assets/login.scss"
 import InputField from  './InputField'
-import { useEffect } from "react"
+import LoginForm from './LoginForm';
+import { useEffect, useState } from "react"
+
+import { useHistory, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 
+export default function LoginPage() {
+
+  const history = useHistory();
+  const navigateTo = () => history.push('/home');
 
 
+const adminUser = {
+  email: "au@mail.com",
+  password: "au123"
 
+};
 
-export default function Login() {
+const [user, setUser] = useState({email: "", password:""});
+const [error, setError] = useState("");
 
+const Login = details => {
+  console.log(details);
 
+  if(details.email == adminUser.email && details.password == adminUser.password) {
+    console.log('logged in')
+    setUser({
+      name: details.name,
+      email: details.email
+    })
+  } else {
+    console.log('try again');
+    setError("Forkert kode eller email")
+  }
+}
 
-    useEffect(() => {
-        fetch('http://localhost:3001/login')
-          .then(res => {
-            return res.json();
-          })
-          .then(data => {
-            console.log(data);
-          })
-      }, [])
-    
-
+const Logout = () => {
+  console.log("logout")
+  setUser({email: "", password:""});
+}
 
     return(
 
 
+    <Router>
+
         <div className="flex-container-login">
         
-        <div className="infobox-login">
-            <h1>DesinficeringsRobot 2000</h1>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eos doloremque corporis sequi ducimus impedit, vel numquam amet, dolorum nulla modi. Ea quod placeat quos ullam unde perferendis voluptate ab repellendus corporis, autem sapiente explicabo voluptatem minima fugiat ipsum necessitatibus!
-            </p>
-        </div>
+        
+        
+        {(user.email != "") ? (
+ <Switch>
 
-        <div className="login-box">
+   <Route>
+     <Home exact path="/home" />
+   </Route>
+ </Switch>
 
-           <InputField type={"text"} placeholder={"Brugernavn"} />
-
-           <InputField type={"password"} placeholder={"Password"} />
-
-            
-
-            <div className="row">
-
-            <div className="bind-attr">
-
-            <input type="radio" name="remember" className="radio" />
-            <label className="small-text" htmlFor="remember"> Husk mig</label>
-
-            </div>
-
-            <a href="" className="small-text">Glemt login?</a>
-
-            </div>
-
-       
-
-            <button className="login large-btn">Log ind</button >
+       ) : (
+         <LoginForm Login={Login} error={error} />
+       )}
 
         </div>
+</Router>
 
-
-        </div>
+        
     )
 }

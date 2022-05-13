@@ -1,4 +1,4 @@
-import Login from './Components/LogIn';
+import LoginPage from './Components/LogIn';
 import Logo from './assets/autonomuosUnits_logo.png';
 import Home from "./Components/Home"
 import './App.css';
@@ -10,7 +10,7 @@ function App() {
     <Router>
     <div className="App">
 
-{/* <img className="logo" src={Logo} height="70"/> */}
+ <img className="logo" src={Logo} height="70"/> 
 
 
     <Switch>
@@ -20,7 +20,7 @@ function App() {
           </Route>
 
           <Route>
-        <Login  exact path="/login" />
+        <LoginPage  exact path="/login" />
         </Route>
 
      </Switch>

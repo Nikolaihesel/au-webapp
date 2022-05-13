@@ -35,7 +35,8 @@ $prim-font:  'lato', sans-serif;
 
 
     .used-bar{
-        background: linear-gradient(rgb(83, 169, 212), rgb(77, 215, 151));
+        background: rgb(35,116,210);
+        background: linear-gradient(100deg, rgba(35,116,210,1) 0%, rgba(55,255,150,1) 100%);
         width: 76%;
         height: 5px;
         border-radius: 4px;
