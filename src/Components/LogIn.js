@@ -9,13 +9,24 @@ import { useHistory, BrowserRouter as Router, Route, Switch } from 'react-router
 
 
 export default function LoginPage() {
+// const [users, setUsers] = useState([])
 
-  const history = useHistory();
-  const navigateTo = () => history.push('/home');
 
+
+//   useEffect(() => {
+//     fetch('http://localhost:3001/user')
+//       .then(response => response.json())
+//       .then(json => setUser(json))
+//   }, [])
+ 
+// console.log(users.map(users => {
+//     "password"
+// }));
+  
 
 const adminUser = {
-  email: "au@mail.com",
+  
+  email : "au@mail.com",
   password: "au123"
 
 };
@@ -24,26 +35,26 @@ const [user, setUser] = useState({email: "", password:""});
 const [error, setError] = useState("");
 
 const Login = details => {
-  console.log(details);
 
   if(details.email == adminUser.email && details.password == adminUser.password) {
-    console.log('logged in')
     setUser({
+      // log ind
       name: details.name,
       email: details.email
     })
   } else {
-    console.log('try again');
     setError("Forkert kode eller email")
   }
 }
 
 const Logout = () => {
-  console.log("logout")
+  // log ud
   setUser({email: "", password:""});
 }
 
+
     return(
+
 
 
     <Router>

@@ -34,8 +34,12 @@
 .progress-container .full-bar .used-bar {
   background: #2374d2;
   background: linear-gradient(100deg, #2374d2 0%, #37ff96 100%);
-  width: 76%;
   height: 5px;
   border-radius: 4px;
+}
+
+.react-sweet-progress-line-inner {
+  background: #2374d2;
+  background: linear-gradient(100deg, #2374d2 0%, #37ff96 100%);
 }
 /*# sourceMappingURL=progress.css.map */

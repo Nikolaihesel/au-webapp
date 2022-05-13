@@ -1,13 +1,17 @@
 import '../assets/progress.css';
+import { Progress } from 'react-sweet-progress';
+import "react-sweet-progress/lib/style.css";
+export default function Progressbar({unit, length }){
 
-export default function Progressbar({unit}){
+
+
     return(
+        
     <div className="progress-container" >
 
          <p className="thin-info">{unit}</p>
-            <div className="full-bar">
-                <div className="used-bar"></div>
-            </div>
+            <Progress percent={length}  className="progress"/>
+
 
     </div>
     )

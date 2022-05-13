@@ -37,10 +37,15 @@ $prim-font:  'lato', sans-serif;
     .used-bar{
         background: rgb(35,116,210);
         background: linear-gradient(100deg, rgba(35,116,210,1) 0%, rgba(55,255,150,1) 100%);
-        width: 76%;
         height: 5px;
         border-radius: 4px;
     }
 }
 
+}
+
+
+.react-sweet-progress-line-inner {
+         background: rgb(35,116,210);
+        background: linear-gradient(100deg, rgba(35,116,210,1) 0%, rgba(55,255,150,1) 100%);
 }
