@@ -1,5 +1,6 @@
 import '../assets/infobeam.scss'
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
+import { useCountdown } from 'react-countdown-circle-timer'
 
 export default function CountDowntimer() {
 
@@ -30,11 +31,13 @@ return (
     <div className="counter">
    <CountdownCircleTimer
           isPlaying
-          duration={915}
-          colors={["#37ff96 ", "#2374d2"]}
-          colorsTime={[10, 5]}
+          duration={900}
+          colors={["#2374d2", "#37ff96"]}
+          colorsTime={[10, 20, 30]}
+           size={100}
+          isSmoothColorTransition
           onComplete={() => ({ shouldRepeat: false })}
-          size={100}
+         
         >
           {renderTime}
     
