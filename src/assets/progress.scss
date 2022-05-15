@@ -35,8 +35,8 @@ $prim-font:  'lato', sans-serif;
 
 
     .used-bar{
-        background: rgb(35,116,210);
-        background: linear-gradient(100deg, rgba(35,116,210,1) 0%, rgba(55,255,150,1) 100%);
+        background: #2374d2;
+        background: linear-gradient(100deg, rgba(35,116,210,1) 0%, #37ff96 100%);
         height: 5px;
         border-radius: 4px;
     }
@@ -46,6 +46,6 @@ $prim-font:  'lato', sans-serif;
 
 
 .react-sweet-progress-line-inner {
-         background: rgb(35,116,210);
-        background: linear-gradient(100deg, rgba(35,116,210,1) 0%, rgba(55,255,150,1) 100%);
+         background: #2374d2;
+        background: linear-gradient(100deg, #2374d2 0%, #37ff96 100%);
 }

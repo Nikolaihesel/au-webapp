@@ -10,6 +10,8 @@ const kpiInfo = [ true, "Antal biler desinficeret", "10.433", "Mest desinficered
 
 export default function InfoBeam(){
     return(
+
+        <div className="black-container">
         <div className="info-beam-container">
 
             <DealerLogo />
@@ -21,10 +23,11 @@ export default function InfoBeam(){
             <KpiBeam  ThisData={[kpiInfo[3]]} DataAbout={[kpiInfo[4]]}/>
 
             </div>
+                       <p className="info-text">Igangværende processer</p>
 
             <div className="timer-container">
 
-                <p>Igangværende processer</p>
+     
 
 
                 <div className="countdown-container">
@@ -40,6 +43,7 @@ export default function InfoBeam(){
 
             </div>
     
+        </div>
         </div>
     )
 }
