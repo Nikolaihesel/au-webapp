@@ -32,7 +32,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 1em;
+  color: #f2f3f7;
 }
 
 .info-beam-container .kpi-beam-container .kpi {
@@ -40,7 +45,7 @@
           box-shadow: 6px 6px 6px #242424, -6px -6px 6px #383838;
   padding: 1.5em;
   margin: 1em 0;
-  width: 80%;
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,8 +56,54 @@
       -ms-flex-align: center;
           align-items: center;
   font-family: "lato", sans-serif;
-  color: #f2f3f7;
   border-radius: 24px;
   font-size: 1rem;
+  margin: 2em 0;
+}
+
+.info-beam-container .kpi-beam-container .kpi p {
+  font-size: .8rem;
+}
+
+.info-beam-container .kpi-beam-container .timer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 6px 6px 6px #292929, inset -6px -6px 6px #000000;
+          box-shadow: inset 6px 6px 6px #292929, inset -6px -6px 6px #000000;
+  height: 40%;
+  width: 95%;
+  margin: 2em;
+  border-radius: 18px;
+}
+
+.info-beam-container .kpi-beam-container .timer-container .countdown-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 6px 6px 6px #242424, -6px -6px 6px #383838;
+          box-shadow: 6px 6px 6px #242424, -6px -6px 6px #383838;
+  margin: 2em .5em;
 }
 /*# sourceMappingURL=infobeam.css.map */

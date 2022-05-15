@@ -12,8 +12,8 @@ $inwards-shadow: inset 6px 6px 10px #cecfd2,
 inset -6px -6px 10px #ffffff;
 
 
-$inwards-shadow-black: inset 6px 6px 10px #242424,
-inset -6px -6px 14px #2a2a2a94;
+$inwards-shadow-black: inset 6px 6px 6px #292929,
+            inset -6px -6px 6px #000000;
 
 $dark-blue: #215288;
 
@@ -43,25 +43,54 @@ width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 1em;
+    color: #f2f3f7;
 
     .kpi {
         box-shadow: $outwards-shadow-black;
         padding: 1.5em;
         margin: 1em 0;
-        width: 80%;
+        width: 95%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-family: $prim-font;
-        color: #f2f3f7;
+     
         border-radius: 24px;
         font-size: 1rem;
+        margin: 2em 0;
 
         p{
-        
+        font-size: .8rem;
         }
     }
+
+    .timer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: $inwards-shadow-black;
+        height: 40%;
+        width: 95%;
+        margin: 2em;
+        border-radius: 18px;
+
+        .countdown-container{
+
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+            justify-content:center;
+            align-items: center;
+            box-shadow: $outwards-shadow-black;
+            margin: 2em .5em;
+            
+        }
+    }
+
+
 }
 
 
