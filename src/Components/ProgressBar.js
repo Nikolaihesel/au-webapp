@@ -1,4 +1,4 @@
-import '../assets/progress.css';
+import '../assets/progress.scss';
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 export default function Progressbar({unit, length }){

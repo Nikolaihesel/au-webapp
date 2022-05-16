@@ -2,7 +2,7 @@ import InfoBeam from './InfoBeam';
 import StartUnit from './StartUnit';
 import FindCar from './FindCar';
 import UnitInfo from './UnitInfo';
-import '../assets/home.css';
+import '../assets/home.scss';
 
 export default function home() {
     return (

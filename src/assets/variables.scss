@@ -17,22 +17,3 @@ $inwards-shadow-black: inset 6px 6px 6px #0000008b,
 $dark-blue: #215288;
 
 $prim-font: 'Nunito Sans', sans-serif;
-
-
-
-.unit-info-container {
-box-shadow: $outwards-shadow;
-width: 300px;
-border-radius: 74px;
-padding: .5em;
-
-p {
-    margin: 1.2em;
-    font-family: $prim-font;
-    color: $dark-blue;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-    
-}

@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
 
 
 $outwards-shadow:   6px 6px 10px #cecfd2,
 -6px -6px 10px #ffffff;
 
+$outwards-shadow-black:   6px 6px 6px #242424,
+             -6px -6px 6px #383838;;
+
 $inwards-shadow: inset 6px 6px 10px #cecfd2,
 inset -6px -6px 10px #ffffff;
 
+
+$inwards-shadow-black: inset 6px 6px 6px #0000008b,
+            inset -6px -6px 6px #353535;
+
 $dark-blue: #215288;
 
-$prim-font:  'lato', sans-serif;
+$prim-font: 'Nunito Sans', sans-serif;
 
 .progress-container {
 

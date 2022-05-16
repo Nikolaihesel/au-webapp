@@ -1,5 +1,5 @@
 import ProgressBar from './ProgressBar';
-import '../assets/unitInfo.css'
+import '../assets/unitInfo.scss'
 
 export default function UnitInfo(){
    const liquidnum =  "67"

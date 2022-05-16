@@ -8,23 +8,7 @@ export default function CountDowntimer() {
          const minutes = Math.floor(remainingTime / 60)
   const seconds = remainingTime % 60
   return `${minutes}:${seconds}`
-
-
-
-
-
-return (
-    <div className="timer">
-      <div className="value">{remainingTime}</div>
-    </div>
-  );
-
-
 }
-
-
-
-
 
 
   return (

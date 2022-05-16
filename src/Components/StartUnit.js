@@ -1,4 +1,4 @@
-import  '../assets/styleBtn.css'
+import  '../assets/styleBtn.scss'
 
 export default function StartUnit(){
 
