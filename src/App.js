@@ -35,8 +35,9 @@ function App() {
 
     <div className="App">
 
- <img className="logo" src={Logo} height="70"/> 
 
+
+{ <img className="logo" src={Logo} height="70"/> }
 
 
 

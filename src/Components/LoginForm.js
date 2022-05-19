@@ -15,7 +15,8 @@ function LoginForm({Login, error}) {
 
         <div className="flex-container-login">
         <div className="infobox-login">
-            <h1>DesinficeringsRobot 2000</h1>
+            <h1>DesinficeringsRobot</h1>
+             <br />
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eos doloremque corporis sequi ducimus impedit, vel numquam amet, dolorum nulla modi. Ea quod placeat quos ullam unde perferendis voluptate ab repellendus corporis, autem sapiente explicabo voluptatem minima fugiat ipsum necessitatibus!
             </p>

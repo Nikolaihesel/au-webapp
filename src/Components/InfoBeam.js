@@ -3,8 +3,9 @@ import DealerLogo from './dealerLogo'
 import RedCross from '../assets/Icon-metro-cross-red.png'
 import CountDownProcess from './CountDownProcess'
 import KpiBeam from './KpiBeam'
+import Confirm from '../assets/confirm.png';
 
-const kpiInfo = [ true, "Antal biler desinficeret", "10.433", "Mest desinficerede model", "A4", "enhed er ikke tilsluttet", RedCross]
+const kpiInfo = [ true, "Antal biler desinficeret", "10.433", "Mest desinficerede model", "A4", "Enhed er  tilsluttet", Confirm]
 
 
 
@@ -23,22 +24,22 @@ export default function InfoBeam(){
             <KpiBeam  ThisData={[kpiInfo[3]]} DataAbout={[kpiInfo[4]]}/>
 
             </div>
-                       <p className="info-text">Igangværende processer</p>
+                     {/*  <p className="info-text">Igangværende processer</p>
 
             <div className="timer-container">
 
      
 
-
+ 
                 <div className="countdown-container">
 
                     <CountDownProcess />
 
-                </div> 
+                </div>  
 
 
             </div>
-
+*/}
        
 
             </div>

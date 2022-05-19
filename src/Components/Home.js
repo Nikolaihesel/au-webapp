@@ -11,7 +11,7 @@ export default function home() {
         <div className="left-side-components">  
                 <div className="top-row">
                 <div className="name-container">
-                 <h1>Velkommen Karsten </h1>
+                 <h1>Velkommen Dennis </h1>
                  <StartUnit className="start-unit"  />
                  </div>
                 <UnitInfo className="unit-info" />

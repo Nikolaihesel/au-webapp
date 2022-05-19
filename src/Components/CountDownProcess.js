@@ -1,12 +1,13 @@
 import '../assets/infobeam.scss'
 import CountDowntimer from './CountDowntimer'
+import '../assets/styletimersteps.scss';
 
-export default function CountDownProcess() {
+export default function CountDownProcess({license}) {
   return (
     <div className="countdown">
 
-    <p>Resterende ventetid</p>
-    <p>BV 70 675</p>
+    <p className="info-timer">Resterende ventetid</p>
+    <p className="info-timer">{license}</p>
 
 
     <CountDowntimer />

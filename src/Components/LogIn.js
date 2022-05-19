@@ -4,24 +4,12 @@ import InputField from  './InputField'
 import LoginForm from './LoginForm';
 import { useEffect, useState } from "react"
 
-import { useHistory, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {  BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 
 export default function LoginPage() {
-// const [users, setUsers] = useState([])
 
-
-
-//   useEffect(() => {
-//     fetch('http://localhost:3001/user')
-//       .then(response => response.json())
-//       .then(json => setUser(json))
-//   }, [])
- 
-// console.log(users.map(users => {
-//     "password"
-// }));
   
 
 const adminUser = {

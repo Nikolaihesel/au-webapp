@@ -2,8 +2,11 @@ import ProgressBar from './ProgressBar';
 import '../assets/unitInfo.scss'
 
 export default function UnitInfo(){
-   const liquidnum =  "67"
-     const batterynum = "78"
+
+
+
+   const liquidnum =  "83"
+    const batterynum = "78"
      const filternum = "89"
 
 
