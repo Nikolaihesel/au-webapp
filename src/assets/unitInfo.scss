@@ -36,3 +36,19 @@ p {
 
     
 }
+
+@media only screen and (max-width: 390px) {
+    .unit-info-container{
+       margin-top: 3em;
+       margin-left: 2em;
+        
+    }
+    .unit-info-container {
+        padding: 1.5em;
+        
+        p {
+            font-size: 1rem;
+        }
+    
+    }
+    }

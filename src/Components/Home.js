@@ -23,9 +23,6 @@ export default function home() {
                 <InfoBeam className="info-beam" /> 
            
             </div>
-       
-
-
         
     </div>
   )

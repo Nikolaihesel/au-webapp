@@ -27,7 +27,6 @@ $shadow-blue: -2px 2px 1px #00191f;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -130,3 +129,56 @@ a {
 }
 
 
+
+
+
+
+
+@media only screen and (max-width: 390px) {
+
+    .row {
+        flex-direction: column;
+    }
+    
+    
+    
+    .flex-container-login{
+    flex-direction: column;
+    gap: 5%;
+    
+    .infobox-login {
+    display: none;  
+    }
+    
+    .login-box {
+         max-width: 200%;
+        max-height: 50%;
+        padding: 2em;
+    
+    }
+    }
+    
+
+}
+
+/*
+.flex-container-login{ 
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+    .infobox-login {
+        display: none;
+  }
+
+
+  .login-box{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex: 100%;
+}
+
+} } */

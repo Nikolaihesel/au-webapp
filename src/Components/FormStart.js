@@ -16,7 +16,7 @@ function FormStart ({hideModal, next, licenseData}) {
         name: '',
     });
     
-    const FormTitles = ["Register car", "Indsæt robotten", "Luk alle døre", "Begynd desinficering", 'Bilen desinficeres nu']
+    const FormTitles = ["Registrer bil", "Indsæt robotten", "Luk alle døre", "Begynd desinficering", 'Bilen desinficeres nu']
 
    const licenseDataInput = formData.license
        

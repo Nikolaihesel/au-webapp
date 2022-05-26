@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+.progress-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 1.5em;
+}
+
+.progress-container .thin-info {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  margin: .3em 0;
+}
+
+.progress-container .full-bar {
+  width: 80%;
+  -webkit-box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
+          box-shadow: 6px 6px 10px #cecfd2, -6px -6px 10px #ffffff;
+  height: 5px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-container .full-bar .used-bar {
+  background: #2374d2;
+  background: linear-gradient(100deg, #2374d2 0%, #37ff96 100%);
+  height: 5px;
+  border-radius: 4px;
+}
+
+.react-sweet-progress-line-inner {
+  background: #2374d2;
+  background: linear-gradient(100deg, #2374d2 0%, #37ff96 100%);
+}
+
+.react-sweet-progress-symbol {
+  font-family: "Nunito Sans", sans-serif;
+}
+/*# sourceMappingURL=progress.css.map */

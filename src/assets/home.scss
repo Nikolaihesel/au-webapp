@@ -57,7 +57,28 @@ $prim-font: 'Nunito Sans', sans-serif;
     }
 }
 
+@media only screen and (max-width: 390px) {
+    .left-side-components{
+        position: absolute;
+       
+    }
 
+    .top-row{
+        display: grid;
+    }
+
+.name-container{
+    font-size: 10px;
+
+    h1{
+        font-size: 30px;
+        margin-top: 3em;
+    }
+}
+
+
+
+}
 
     
 

@@ -13,7 +13,7 @@ const [email, setEmail] = useState('')
   login(email, password)}
 
   if (useLogin === true) {
-      console.log('wtf')
+      console.log('test')
   }
 
   return (

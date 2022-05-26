@@ -63,4 +63,8 @@ $prim-font: 'Nunito Sans', sans-serif;
 
 }
 
-
+@media only screen and (max-width: 390px) {
+    .find-car{
+        display: none;
+    }
+}
